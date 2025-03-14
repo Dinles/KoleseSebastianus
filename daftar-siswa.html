@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Daftar Siswa - Sekolah Sebastianus</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <div class="header-left">
+        <img src="logo-sekolah.png" alt="Logo Sekolah" class="school-logo">
+        <h1>Sekolah Kolese Sebastianus</h1>
+      </div>
+      <div class="menu-icon"><i class="fas fa-bars"></i></div>
+      <nav>
+        <ul>
+          <li><a href="beranda.html">Beranda</a></li>
+          <li><a href="tentang.html">Tentang Kami</a></li>
+          <li><a href="program.html">Program Akademik</a></li>
+          <li><a href="fasilitas.html">Fasilitas</a></li>
+          <li><a href="berita.html">Berita & Pengumuman</a></li>
+          <li><a href="daftar-siswa.html">Daftar Siswa</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section id="daftar-siswa">
+      <div class="container">
+        <h2>Daftar Siswa</h2>
+        <center><h3>Give me the boy and We'll give you a Machine</h3></center>
+        <form action="#" method="post">
+          <label for="nama">Nama Lengkap:</label>
+          <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Masukkan email" required>
+          
+          <label for="telepon">Telepon:</label>
+          <input type="text" id="telepon" name="telepon" placeholder="Masukkan nomor telepon" required>
+          
+          <label for="alamat">Alamat:</label>
+          <textarea id="alamat" name="alamat" placeholder="Masukkan alamat lengkap" rows="4" required></textarea>
+          
+          <label for="jurusan">Jurusan yang diminati:</label>
+          <select id="jurusan" name="jurusan" required>
+            <option value="">Pilih Jurusan</option>
+            <option value="ipa">IPA</option>
+            <option value="ips">IPS</option>
+            <option value="bahasa">Bahasa</option>
+          </select>
+          
+          <input type="submit" value="Daftar">
+        </form>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <hr>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <h2>Kontak & Lokasi</h2>
+          <div class="contact-info">
+            <div>
+              <h3>Alamat</h3>
+              <p>Jl. Menteng Raya no.1024</p>
+            </div>
+            <div>
+              <h3>Telepon</h3>
+              <p>+62 81-8306-399</p>
+            </div>
+            <div>
+              <h3>Email</h3>
+              <p>info@KSebastianus.sch.id</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">
+        &copy; 2025 Sekolah Kolese Sebastianus. All rights reserved.
+      </p>
+    </div>
+    <hr>
+  </footer>
+
+</body>
+</html>
